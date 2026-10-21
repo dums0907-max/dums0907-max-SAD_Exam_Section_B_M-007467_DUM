@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10264b">
+  <title>Scholarship Management Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="head-brand">
+      <div class="brand-mark" aria-hidden="true">S</div>
+      <div class="brand-copy">
+        <b>Scholarship Management</b>
+        <small>ACADEMIC COMPLIANCE PORTAL</small>
+      </div>
+    </div>
+    <div class="header-right">
+      <span class="secure-label"><span class="secure-dot"></span> Secure portal</span>
+      <span id="who"></span>
+    </div>
+  </header>
+  <main>
+    <div class="page-intro">
+      <div>
+        <p class="eyebrow">STUDENT SERVICES <span>/</span> SCHOLARSHIP OFFICE</p>
+        <h1>Scholarship Monitoring</h1>
+        <p class="intro-copy">A clear view of academic submissions, compliance, and renewal decisions.</p>
+      </div>
+      <div class="term-chip"><span class="term-dot"></span> Academic Compliance</div>
+    </div>
+    <div id="msg" role="status" aria-live="polite"></div>
+    <div id="app"></div>
+    <footer>
+      <span class="footer-mark">S</span>
+      <span>Scholarship Management Portal</span>
+      <span class="footer-separator">•</span>
+      <span>Academic Compliance</span>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
