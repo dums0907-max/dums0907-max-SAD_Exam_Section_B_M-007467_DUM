@@ -1,7 +1,8 @@
 # Student Scholarship Monitoring and Academic Compliance System
 
-**--AVAILABLE ACCOUNTS--
-**staff account : staff@adssu.edu.ph / 123456789
+--AVAILABLE ACCOUNTS--
+
+staff account : staff@adssu.edu.ph / 123456789
 
 scholar accoount : scholar@adssu.edu.ph / 123456789
 
