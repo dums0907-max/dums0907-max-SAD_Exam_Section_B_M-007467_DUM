@@ -1,6 +1,8 @@
 # Student Scholarship Monitoring and Academic Compliance System
 
-staff account : staff@adssu.edu.ph / 123456789
+**--AVAILABLE ACCOUNTS--
+**staff account : staff@adssu.edu.ph / 123456789
+
 scholar accoount : scholar@adssu.edu.ph / 123456789
 
 SAD Laboratory Examination, Section B. Browser-based minimum viable system for Scholar and Scholarship Staff roles.
