@@ -23,8 +23,8 @@ Stack: HTML, CSS, JavaScript, Supabase (Postgres, Auth, Row Level Security). Syn
 
 The app is plain browser JavaScript, so the two values are constants at the top of `app.js`:
 
-- `https://seiqqswbdszbpjtepvmg.supabase.co`: your project URL
-- `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNlaXFxc3diZHN6YnBqdGVwdm1nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1MTY1OTIsImV4cCI6MjEwODA5MjU5Mn0.20tzuQBeWjcnkfhCi3J75NuaSSvSLZfSl-egIrVB3c8`: your project's public anon key
+- `https://seiqqswbdszbpjtepvmg.supabase.co`: project URL
+- `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNlaXFxc3diZHN6YnBqdGVwdm1nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1MTY1OTIsImV4cCI6MjEwODA5MjU5Mn0.20tzuQBeWjcnkfhCi3J75NuaSSvSLZfSl-egIrVB3c8`: project's public anon key
 
 Never put the service-role key or any password in the source code or screenshots.
 
@@ -43,7 +43,7 @@ select id, 'scholar', 'Scholar One' from auth.users where email = 'scholar@adssu
 update scholars set user_id = (select id from auth.users where email = 'scholar@adssu.edu.ph') where student_id = 'B01';
 ```
 
-5. Put your URL and anon key into `app.js`.
+5. Put URL and anon key into `app.js`.
 
 ## Run
 
