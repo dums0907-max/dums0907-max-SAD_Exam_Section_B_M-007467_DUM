@@ -62,7 +62,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 1px;
+    padding: 4px;
     border-radius: inherit;
 }
 .brand-copy { display: flex; flex-direction: column; line-height: 1.3; }
